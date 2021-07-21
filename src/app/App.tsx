@@ -9,6 +9,7 @@ function App() {
     const dispatch = useDispatch()
 
     useEffect(() => {
+// Не совсем разобрался с запросами, поэтому сделал их здесь.
         // @ts-ignore
         BX24.callMethod(
             "crm.deal.list",
